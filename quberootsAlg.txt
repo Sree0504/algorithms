@@ -1,0 +1,7 @@
+
+(1) Store the first 10 cube roots, their cubes, and the last digit in the number.
+(2) Ignore the last 3 digits of the input number, and for the remaining numbers, find the cube in the table that is less than or equal to the remaining number, and take the corresponding cube root to be the first number in your answer. 
+(3) For the last 3 digits that you previously ignored, loop through the table and when you get to the ith index, where i equals the last digit of the remaining 3 numbers, take the corresponding number in the right column as your answer.
+(4) These numbers combined are the cube root answer.
+
+TimeComplexity: O(1)
